@@ -2951,6 +2951,7 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #ffc800;
   border-color: #ffc800;
+  border-radius: 15px;
 }
 .btn-primary:hover {
   color: #fff;
@@ -10860,7 +10861,19 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
+  margin-bottom: 15rem;
+}
+
+.section-subheading2 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 3rem;
+}
+
+#conhecimento {
+  margin-bottom: 10rem;
 }
 
 @media (min-width: 768px) {
@@ -10957,12 +10970,23 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/background-header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+
+.text-responsive2 {
+  max-width: 15px;
+  height: auto;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10987,7 +11011,7 @@ header.masthead .masthead-heading {
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
@@ -11265,17 +11289,41 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+#container {
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: none;
+  margin-bottom: none;
+  gap: 20px;
+}
+
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/background-header0.png");
   background-repeat: no-repeat;
   background-position: center;
+  padding: 10%;
 }
 section#contact .section-heading {
   color: #fff;
 }
+
+.empurrao {
+  margin-top: 11.5%;
+  margin-bottom: 7.5%;
+}
+
+.espaço {
+  margin-bottom: 3rem;
+  margin-top: 0rem;
+}
+
 section#contact form#contactForm .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 6rem;
+  margin-top: 10.5rem;
 }
 section#contact form#contactForm .form-group input,
 section#contact form#contactForm .form-group textarea {

@@ -10889,8 +10889,8 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 3rem;
+  width: 3rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -11321,6 +11321,24 @@ section#contact .section-heading {
   margin-top: 0rem;
 }
 
+.fadein {
+  animation: fadein 2.5s;
+	
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2.5s; /* Firefox < 16 */
+	-ms-animation: fadein 2.5s; /* Internet Explorer */
+	-o-animation: fadein 2.5s; /* Opera < 12.1 */
+}
+
+.fadein2 {
+  animation: fadein 1.0s;
+	
+	-webkit-animation: fadein 1.0s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.0s; /* Firefox < 16 */
+	-ms-animation: fadein 1.0s; /* Internet Explorer */
+	-o-animation: fadein 1.0s; /* Opera < 12.1 */
+}
+
 section#contact form#contactForm .form-group {
   margin-bottom: 6rem;
   margin-top: 10.5rem;
@@ -11372,3 +11390,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+ /******************************* animações */
+
+ @keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+ /******************************* transições */

@@ -10912,6 +10912,22 @@ p {
   margin-bottom: 8rem;
 }
 
+.section-subheading-projetos {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 5rem;
+}
+
+.sombra {
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.texto-no-centro {
+  text-align: center;
+}
+
 #conhecimento {
   margin-bottom: 10rem;
 }

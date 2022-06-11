@@ -10897,11 +10897,20 @@ p {
   font-weight: 400;
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 7rem;
+  margin-bottom: 12rem;
 }
 
 .empurrar {
-  margin-top: 7rem;
+  margin-top: 8rem;
+}
+
+.intervalo {
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: #FFF7C2;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .section-subheading-arte-digital2 {

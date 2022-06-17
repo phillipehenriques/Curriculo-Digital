@@ -10902,6 +10902,10 @@ p {
   margin-bottom: 14rem;
 }
 
+.mais-conhecimento {
+  margin-top: 10rem;
+}
+
 .section-subheading-arte-digital {
   font-size: 1rem;
   font-weight: 400;
@@ -10923,12 +10927,22 @@ p {
   box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+.AS-intervalo {
+  margin-bottom:  2rem;
+}
+
 #flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   justify-items: center;
   align-items: center;
+}
+
+.flex-app {
+  background-color: orange;
+  height: 15rem;
+  width: 100%;
 }
 
 .section-subheading-arte-digital2 {  

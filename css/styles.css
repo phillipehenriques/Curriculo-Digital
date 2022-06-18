@@ -10903,7 +10903,7 @@ p {
 }
 
 .mais-conhecimento {
-  margin-top: 10rem;
+  margin-top: none;
 }
 
 .section-subheading-arte-digital {
@@ -10940,7 +10940,7 @@ p {
 }
 
 .flex-app {
-  background-color: orange;
+  background-color: none;
   height: 15rem;
   width: 100%;
 }

@@ -10939,6 +10939,27 @@ p {
   align-items: center;
 }
 
+#intervalo-cel {
+  background-color: blue;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.propriedades {
+  background-color: orange;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .flex-app {
   background-color: none;
   height: 15rem;

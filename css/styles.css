@@ -10940,7 +10940,7 @@ p {
 }
 
 #intervalo-cel {
-  background-color: blue;
+  background-color: none;
   margin-top: 4rem;
   display: flex;
   flex-direction: row;
@@ -10952,7 +10952,7 @@ p {
 }
 
 .propriedades {
-  background-color: orange;
+  background-color: #F7DD4A;
   border-radius: 12px;
   padding: 2rem;
   width: 25rem;
@@ -10986,6 +10986,13 @@ p {
 
 .sombra {
   box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.classeIMG { 
+  transition: 0.5s; 
+}
+.classeIMG:hover { 
+  transform: scale(1.1); 
 }
 
 .centro {

@@ -269,7 +269,14 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+img {
+  border-radius: 5px;
+}
+
+.borda {
+  border-radius: 12px;
+}
+
 svg {
   vertical-align: middle;
 }
@@ -10986,7 +10993,7 @@ p {
 }
 
 .sombra {
-  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 
 .classeIMG { 
@@ -11120,6 +11127,21 @@ header.masthead {
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.zoom_out { 
+  transition: 0.7s; 
+}
+.zoom_out:hover { 
+  transform: scale(0.95); 
+}
+
+.caixa-instagram {
+  margin-top: 10rem;
+}
+
+.card-hab {
+  padding: 2rem;
 }
 
 header.masthead .masthead-subheading {

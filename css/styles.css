@@ -49,6 +49,11 @@
   }
 }
 
+.box-post {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
 body {
   margin: 0;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11137,7 +11142,7 @@ header.masthead {
 }
 
 .caixa-instagram {
-  margin-top: 10rem;
+  margin-top: 7vh;
 }
 
 .card-hab {

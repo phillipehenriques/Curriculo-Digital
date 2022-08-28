@@ -10975,7 +10975,7 @@ p {
 
 .flex-app {
   background-color: none;
-  height: 15rem;
+  height: 20rem;
   width: 100%;
 }
 
@@ -11006,6 +11006,10 @@ p {
 }
 .classeIMG:hover { 
   transform: scale(1.1); 
+}
+
+.headbutt {
+  margin-top: none;
 }
 
 .centro {

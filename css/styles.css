@@ -593,6 +593,32 @@ progress {
   height: auto;
 }
 
+.screen {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  left: 80%;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.strip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #000;
+  margin-bottom: 10vh;
+  width: 100%;
+  height: 30vh;
+}
+
 .figure {
   display: inline-block;
 }

@@ -621,11 +621,7 @@ progress {
   justify-content: space-around;
   margin-bottom: 10vh;
   width: 100%;
-  height: 30vh;
-}
-
-.strip-text {
-  color: white;
+  height: 40vh;
 }
 
 .figure {
@@ -10909,7 +10905,7 @@ p {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/portfolio/rodape.png");
+  background-image: url("../assets/img/background-header0.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -10978,6 +10974,23 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.box-certificados {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.text-certicados {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .card {
   background-color: #FFF7C2;
   box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
@@ -11038,6 +11051,14 @@ p {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 5rem;
+}
+
+.section-subheading-projetos2 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 1vh;
 }
 
 .sombra {

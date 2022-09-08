@@ -3904,10 +3904,19 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3vh;
+  margin-top: 4.5vh;
   background-color: none;
   width: 100vw;
   height: 10vh;
+  gap: 5px;
+}
+
+.box-label-child {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   gap: 5px;
 }
 
@@ -3946,6 +3955,12 @@ textarea.form-control-lg {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .box-label {
+    display: none;
+  }
 }
 
 .nav {
@@ -11250,6 +11265,45 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/background-header0.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.certificados {
+  padding-top: 10.5rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/fotos\ de\ capa/certificados.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.certificados-fm {
+  font-size: 2.25rem;
+  font-style: italic;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
+  margin-top: 10vh;
+}
+
+.certificados-fg {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+
+header.projetos {
+  padding-top: 10.5rem;
+  padding-bottom: 29.2rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/fotos\ de\ capa/projetos.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;

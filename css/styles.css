@@ -3898,65 +3898,6 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
-.box-label{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4.5vh;
-  background-color: none;
-  width: 100vw;
-  height: 10vh;
-  gap: 5px;
-}
-
-.box-label-child {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 5px;
-}
-
-.yellow {
-  background-color: #D9AA00;
-  border-radius: 5px;
-  width: 1vw;
-  height: 2vh;
-}
-
-.purple {
-  background-color: #7024B6;
-  border-radius: 5px;
-  width: 1vw;
-  height: 2vh;
-}
-
-.label-yellow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-}
-
-.label-purple {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-}
-
-.text-label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (max-width: 767px) {
   .box-label {
     display: none;

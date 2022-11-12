@@ -1,9 +1,9 @@
 # Sobre meu Currículo Digital
 <br>
 
-Esse é meu projeto mais atualizado, e minuciosamente desenvolvido, para apresentar os meus projetos, meus cursos e interesses, de forma clara e precisa.
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/phillipehenriques/Curriculo-Digital)
+
+Esse é meu projeto mais atualizado, e minuciosamente desenvolvido, para apresentar os meus projetos, meus cursos e interesses, de forma clara e precisa.
 
 > ###### Nesse site constam as informações sobre minha área de conhecimento técnico, meus cursos completos, todos os meus projetos web disponíveis (com link para o repositório), minha galeria, e mais informações relevantes sobre minha atuação nas redes sociais.
 

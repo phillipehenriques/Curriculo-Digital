@@ -674,6 +674,7 @@ progress {
   justify-content: center;
   text-align: center;
   width: 100%;
+  /* background-color: red; */
   margin-bottom: 5vh;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
@@ -11739,14 +11740,17 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .btn-abrir-projeto {
-  margin-top: 5vh; background-color: blueviolet; border-radius: 12px;
+  margin-top: 5vh; 
+  background-color: blueviolet; 
+  color: white;
+  border-radius: 12px;
 }
 
 .destaque {
   margin-top: 7vh;
-  width: 80%;
+  width: 70%;
   height: auto;
-  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .footer {

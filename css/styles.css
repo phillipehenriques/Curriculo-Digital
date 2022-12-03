@@ -11738,6 +11738,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+.btn-abrir-projeto {
+  margin-top: 5vh; background-color: blueviolet; border-radius: 12px;
+}
+
 .destaque {
   margin-top: 7vh;
   width: 80%;

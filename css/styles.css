@@ -11746,6 +11746,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   border-radius: 12px;
 }
 
+.background-new {
+  background-color: #0e0808;
+  opacity: 1;
+  background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+  background-size: 36px 63px;
+  background-position: 0 0, 0 0, 18px 32px, 18px 32px, 0 0, 18px 32px;
+}
+
 .destaque {
   margin-top: 7vh;
   width: 100%;

@@ -11748,7 +11748,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .destaque {
   margin-top: 7vh;
-  width: 70%;
+  width: 100%;
   height: auto;
   box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }

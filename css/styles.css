@@ -675,7 +675,7 @@ progress {
   text-align: center;
   width: 100%;
   /* background-color: red; */
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -11035,7 +11035,7 @@ p {
 }
 
 .intervalo {
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
 }
 
 .box-certificados {
@@ -11747,6 +11747,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .background-new {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background-color: #0e0808;
   opacity: 1;
   background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
@@ -11756,6 +11761,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .destaque {
   margin-top: 7vh;
+  margin: auto;
   width: 100%;
   height: auto;
   box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);

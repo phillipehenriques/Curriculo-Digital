@@ -3039,6 +3039,12 @@ textarea.form-control-lg {
   border-radius: 15px;
 }
 
+.btn-two:hover {
+  color: #fff;
+  background-color: #7024b6;
+  border-color: #7024b6;
+}
+
 .btn-three {
   color: #fff;
   background-color: #d1ce7a;
@@ -3053,11 +3059,7 @@ textarea.form-control-lg {
   border-radius: 15px;
 }
 
-.btn-two:hover {
-  color: #fff;
-  background-color: #7024b6;
-  border-color: #7024b6;
-}
+
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11206,7 +11208,9 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: none;
+  transition: 0.5s;
+  scale: 1.025;
+  color: var(--bs-yellow);
 }
 
 @media (min-width: 992px) {

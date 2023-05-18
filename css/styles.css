@@ -11287,6 +11287,10 @@ header.certificados {
     margin-bottom: 2rem;
 }
 
+.quebra-de-linha {
+  line-height: 1.5;
+}
+
 header.projetos {
   padding-top: 10.5rem;
   padding-bottom: 29.2rem;
